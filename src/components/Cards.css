@@ -1,0 +1,51 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  
+    width: 22%;
+    background: #ffffffaa;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 3px;
+    margin: 1rem;
+    transition: all 200ms linear;
+  }
+  .img-container img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    border-radius: 8px;
+    background: #ededed31;
+    object-fit: fill;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .users-cont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cards-contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -1,0 +1,22 @@
+.rick-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.main-rick{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width: 100%;
+   
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
